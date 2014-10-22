@@ -1,7 +1,6 @@
 --Download Center LUA Plugin
 --From Ezak for coolstream.to
---Dieses Werk steht unter einer Creative Commons Namensnennung - Nicht kommerziell 3.0 Deutschland (CC BY-NC 3.0 DE)
---http://creativecommons.org/licenses/by-nc/3.0/de/ 
+--READ LICENSE on https://github.com/Ezak91/CST-Downloadcenter-Plugin.git
 --2014
 
 --Objekte
