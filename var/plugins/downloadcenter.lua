@@ -121,6 +121,10 @@ function neutrinoExec(_id)
 		elseif (msg == RC['green']) then
 			delete(id);
 			msg = RC['home'];
+		elseif (msg == RC['up'] or msg == RC['page_up']) then
+			ct1:scroll{dir="up"};
+		elseif (msg == RC['down'] or msg == RC['page_down']) then
+			ct1:scroll{dir="down"};			
 		end
 	-- Taste Exit oder Menü beendet das Fenster
 	until msg == RC['home'] or msg == RC['setup'];
